@@ -1,0 +1,79 @@
+import Vue from "vue"
+import {
+	Button,
+	Search,
+	Swipe,
+	SwipeItem,
+	Icon,
+	Tag,
+	List,
+	Cell,
+	DropdownMenu,
+	DropdownItem,
+	Empty,
+	Dialog,
+	Toast,
+	Tabbar,
+	TabbarItem,
+	Col,
+	Row,
+	Grid,
+	GridItem,
+	Form,
+	Field,
+	Collapse,
+	CollapseItem,
+	GoodsAction,
+	GoodsActionButton,
+	GoodsActionIcon,
+	Sku,
+	SwipeCell,
+	Card,
+	Radio,
+	RadioGroup,
+	Checkbox,
+	CheckboxGroup,
+	SubmitBar,
+	Stepper,
+	Loading,
+	Sticky,
+	TreeSelect,
+} from "vant"
+Vue.use(TreeSelect)
+Vue.use(Sticky)
+Vue.use(Loading)
+Vue.use(Stepper)
+Vue.use(SubmitBar)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Card)
+Vue.use(SwipeCell)
+Vue.use(Sku)
+Vue.use(GoodsAction)
+Vue.use(GoodsActionButton)
+Vue.use(GoodsActionIcon)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Form)
+Vue.use(Field)
+Vue.use(Grid)
+Vue.use(GridItem)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(Tabbar)
+Vue.use(TabbarItem)
+Vue.use(Dialog)
+Vue.use(Toast)
+Vue.use(Empty)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Cell)
+Vue.use(List)
+Vue.use(Tag)
+Vue.use(Icon)
+Vue.use(SwipeItem)
+Vue.use(Swipe)
+Vue.use(Button)
+Vue.use(Search)
